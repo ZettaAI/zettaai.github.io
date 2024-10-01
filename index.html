@@ -1,3 +1,266 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neuronal wiring diagrams at synaptic resolution">
+  <title>Zetta AI: accelerate connectomics</title>
+  <style>
+    body {
+      font-family: 'Lucida Console', monospace;
+      font-size: 18px;
+      color: #fff;
+      background-color: #000;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 50px;
+      box-sizing: border-box;
+    }
+    .landing {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      background-image: url('flywire-auditory.png');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #fff;
+    }
+    .links-container {
+      font-size: 24px;
+      margin: 20px;
+    }
+    .links-container a {
+      text-decoration: none;
+      margin: 0 10px;
+      color: inherit;
+    }
+    hr {
+      border: none;
+      height: 2px;
+      background-color: lightgrey;
+      width: 100%;
+      margin: 30px auto;
+    }
+    .content-section {
+      text-align: left;
+      margin: 40px auto;
+    }
+    .separator {
+      letter-spacing: -9px;
+    }
+    img {
+      max-width: 400px;
+      height: auto;
+      margin: 20px auto;
+    }
+    a {
+      color: #00FFCC;
+    }
+    a:hover {
+      color: #FF9900;
+    }
+    .paper{
+      font-size: 14px;
+    }
+    .footer {
+      margin: 50px 0;
+      font-size: 14px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="landing">
+    <img src="logo.png" alt="accelerate connectomics">
+    <div class="links-container">
+      <a href="#about">about</a><span class="separator">|</span>
+      <a href="#services">services</a><span class="separator">|</span>
+      <a href="#research">research</a><span class="separator">|</span>
+      <a href="#projects">projects</a><span class="separator">|</span>
+      <a href="#jobs">jobs</a><span class="separator">|</span>
+      <a href="#contact">contact</a>
+    </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <section id="about" class="content-section">
+    <h2>About Zetta</h2>
+    <p>
+    We are a team of researchers that are <a href="#research">advancing the state-of-the-art</a> in neuronal wiring diagram reconstruction, while offering <a href="#services">automatic reconstruction services</a> to neuroscience labs.
+    </p>
+      Our team created the automatic reconstructions behind two groundbreaking achievements in neuroscience: 
+	<ul>
+	  <li>
+	    <a href="http://codex.flywire.ai">FlyWire</a>: 
+	    The FlyWire project mapped the adult Drosophila brain with over 100,000 neurons and 100 million synapses, a massive leap beyond the 300 neurons of C. elegans.
+	  </li>
+	  <li>
+	    <a href="http://microns-explorer.org">MICrONS</a>: 
+	    The MICrONS consortium achieved the first reconstruction of a cubic millimeter of the cerebral cortex, demonstrating petascale connectomics with our AI. 
+	  </li>
+	</ul> 
+      
+    <p>
+      We are key contributors to <a href="https://braininitiative.nih.gov/research/neuroimaging-technologies-across-scales/brain-initiative-connectivity-across-scales">BRAIN CONNECTS</a>, a ten-year effort under the US BRAIN Initiative to map a whole mouse brain at synaptic resolution. 
+    </p>
+    <p>
+    A human brain imaged at synaptic resolution would yield a zettabyte of data (1e21 bytes). Our goal is to enable zettascale connectomics.
+  </section>
+
+  <hr>
+
+  <section id="services" class="content-section">
+    <h2>Reconstruction services</h2>
+    <p>We currently offer:
+	<ul>
+	  <li>Image stitching
+	  </li>
+	  <li>Image alignment
+	  </li>
+	  <li>Cell segmentation
+	  </li>
+	  <li>Nucleus, blood vessel, compartment, organelle segmentations
+	  </li>
+	  <li>Synapse detection & assignment
+	  </li>
+	  <li>Collaborative proofreading & analysis via <a href="https://caveconnectome.github.io/">CAVE</a>
+	  </li>
+	  <li>Ad hoc processing
+          </li>
+	</ul> 
+    </p>
+
+    <a href="#contact">Email us</a> for an estimate.
+  </section>
+
+  <hr>
+
+
+  <section id="research" class="content-section">
+    <h2>Featured work</h2>
+  <p class="paper">
+    <a href="https://doi.org/10.1038/s41586-024-07558-y">Neuronal wiring diagram of an adult brain</a>.
+    Sven Dorkenwald, Arie Matsliah, Amy R. Sterling, Philipp Schlegel, Szi-Chieh Yu, Claire E. McKellar, Albert Lin, Marta Costa, Katharina Eichler, Yijie Yin, Will Silversmith, Casey Schneider-Mizell, Chris S. Jordan, Derrick Brittain, <u>Akhilesh Halageri</u>, Kai Kuehner, Oluwaseun Ogedengbe, Ryan Morey, Jay Gager, Krzysztof Kruk, Eric Perlman, Runzhe Yang, David Deutsch, Doug Bland, Marissa Sorek, <u>Ran Lu</u>, <u>Thomas Macrina</u>, <u>Kisuk Lee</u>, <u>J Alex Bae</u>, Shang Mu, Barak Nehoran, Eric Mitchell, <u>Sergiy Popovych</u>, Jingpeng Wu, Zhen Jia, Manuel Castro, <u>Nico Kemnitz</u>, <u>Dodam Ih</u>, Alexander Shakeel Bates, Nils Eckstein, Jan Funke, Forrest Collman, Davi D. Bock, Gregory S. X. Jefferis, H. Sebastian Seung, Mala Murthy. Nature. October 2024.
+  </p>
+
+  <p class="paper">
+    <a href="https://doi.org/10.1038/s41586-024-07600-z">Synaptic architecture of leg and wing premotor control networks in Drosophila</a>.
+    Ellen Lesser, Anthony W. Azevedo, Jasper S. Phelps, Leila Elabbady, Andrew Cook, Durafshan Sakeena Syed, Brandon Mark, Sumiya Kuroda, Anne Sustar, Anthony Moussa, Chris J. Dallmann, Sweta Agrawal, Su-Yee J. Lee, Brandon Pratt, Kyobi Skutt-Kakaria, Stephan Gerhard, <u>Ran Lu</u>, <u>Nico Kemnitz</u>, <u>Kisuk Lee</u>, <u>Akhilesh Halageri</u>, Manuel Castro, <u>Dodam Ih</u>, Jay Gager, Marwan Tammam, Sven Dorkenwald, Forrest Collman, Casey Schneider-Mizell, Derrick Brittain, Chris S. Jordan, <u>Thomas Macrina</u>, Michael Dickinson, Wei-Chung Allen Lee, John C. Tuthill. Nature. July 2024.
+  </p>
+
+  <p class="paper">
+    <a href="https://doi.org/10.1038/s41586-024-07389-x">Connectomic reconstruction of a female Drosophila ventral nerve cord</a>.
+    Anthony Azevedo, Ellen Lesser, Jasper S. Phelps, Brandon Mark, Leila Elabbady, Sumiya Kuroda, Anne Sustar, Anthony Moussa, Avinash Khandelwal, Chris J. Dallmann, Sweta Agrawal, Su-Yee J. Lee, Brandon Pratt, Andrew Cook, Kyobi Skutt-Kakaria, Stephan Gerhard, <u>Ran Lu</u>, <u>Nico Kemnitz</u>, <u>Kisuk Lee</u>, <u>Akhilesh Halageri</u>, Manuel Castro, <u>Dodam Ih</u>, Jay Gager, Marwan Tammam, Sven Dorkenwald, Forrest Collman, Casey Schneider-Mizell, Derrick Brittain, Chris S. Jordan, Michael Dickinson, Alexandra Pacureanu, H. Sebastian Seung, <u>Thomas Macrina</u>, Wei-Chung Allen Lee, John C. Tuthill. Nature. July 2024.
+  </p>
+
+  <p class="paper">
+    <a href="https://doi.org/10.1038/s41467-023-44354-0">Petascale pipeline for precise alignment of images from serial section electron microscopy</a>.
+    <u>Sergiy Popovych</u>, <u>Thomas Macrina</u>, <u>Nico Kemnitz</u>, Manuel Castro, Barak Nehoran, Zhen Jia, <u>J Alex Bae</u>, Eric Mitchell, Shang Mu, Eric T. Trautman, Stephan Saalfeld, Kai Li, H. Sebastian Seung. Nature Communications. January 2024.
+  </p>
+
+  <p class="paper">
+    <a href="https://doi.org/10.1101/2023.07.26.550598">CAVE: Connectome Annotation Versioning Engine</a>.
+    Sven Dorkenwald, Casey M. Schneider-Mizell, Derrick Brittain, <u>Akhilesh Halageri</u>, Chris S. Jordan, <u>Nico Kemnitz</u>, Manuel A. Castro, William Silversmith, Jeremy Maitin-Shephard, Jakob Troidl, Hanspeter Pfister, Valentin Gillet, Daniel Xenes, <u>J Alex Bae</u>, Agnes L. Bodor, Joann Buchanan, Daniel J. Bumbarger, Leila Elabbady, Zhen Jia, Daniel Kapner, Sam Kinn, <u>Kisuk Lee</u>, Kai Li, <u>Ran Lu</u>, <u>Thomas Macrina</u>, Gayathri Mahalingam, Eric Mitchell, Shanka Subhra Mondal, Shang Mu, Barak Nehoran, <u>Sergiy Popovych</u>, Marc Takeno, Russel Torres, Nicholas L. Turner, William Wong, Jingpeng Wu, Wenjing Yin, Szi-Chieh Yu, R. Clay Reid, Nuno Maçarico da Costa, Forrest Collman, H. Sebastian Seung. bioRxiv. July 2023.
+  </p>
+
+  <p class="paper">
+    <a href="https://doi.org/10.1016/j.cell.2022.01.023">Reconstruction of neocortex: Organelles, compartments, cells, circuits, and activity</a>.
+    Nicholas L. Turner, <u>Thomas Macrina</u>, <u>J Alex Bae</u>, Runzhe Yang, Alyssa M. Wilson, Casey Schneider-Mizell, <u>Kisuk Lee</u>, <u>Ran Lu</u>, Jingpeng Wu, Agnes L. Bodor, Adam A. Bleckert, Derrick Brittain, Emmanouil Froudarakis, Sven Dorkenwald, Forrest Collman, <u>Nico Kemnitz</u>, <u>Dodam Ih</u>, William M. Silversmith, Jonathan Zung, Aleksandar Zlateski, Ignacio Tartavull, Szi-Chieh Yu, <u>Sergiy Popovych</u>, Shang Mu, William Wong, Chris S. Jordan, Manuel A. Castro, Joann Buchanan, Daniel J. Bumbarger, Marc Takeno, Russel Torres, Gayathri Mahalingam, Leila Elabbady, Yang Li, Erick Cobos, Pengcheng Zhou, Shelby Suckow, Lynne Becker, Liam Paninski, Franck Polleux, Jacob Reimer, Andreas S. Tolias, R. Clay Reid, Nuno Maçarico da Costa, H. Sebastian Seung. Cell. February 2022.
+  </p>
+
+  <p class="paper">
+    <a href="https://doi.org/10.1101/2021.08.04.455162">Petascale neural circuit reconstruction: automated methods</a>.
+    <u>Thomas Macrina</u>, <u>Kisuk Lee</u>, <u>Ran Lu</u>, Nicholas L. Turner, Jingpeng Wu, <u>Sergiy Popovych</u>, William Silversmith, <u>Nico Kemnitz</u>, <u>J Alex Bae</u>, Manuel A. Castro, Sven Dorkenwald, <u>Akhilesh Halageri</u>, Zhen Jia, Chris Jordan, Kai Li, Eric Mitchell, Shanka Subhra Mondal, Shang Mu, Barak Nehoran, William Wong, Szi-Chieh Yu, Agnes L. Bodor, Derrick Brittain, Joann Buchanan, Daniel J. Bumbarger, Erick Cobos, Forrest Collman, Leila Elabbady, Paul G. Fahey, Emmanouil Froudarakis, Daniel Kapner, Sam Kinn, Gayathri Mahalingam, Stelios Papadopoulos, Saumil Patel, Casey M. Schneider-Mizell, Fabian H. Sinz, Marc Takeno, Russel Torres, Wenjing Yin, Xaq Pitkow, Jacob Reimer, Andreas S. Tolias, R. Clay Reid, Nuno Maçarico da Costa, H. Sebastian Seung. bioRxiv. August 2021.
+  </p>
+
+  <p class="paper">
+    <a href="https://doi.org/10.1101/2021.07.28.454025">Functional connectomics spanning multiple areas of mouse visual cortex</a>.
+    MICrONs Consortium, Agnes L. Bodor, <u>Akhilesh Halageri</u>, Amy Sterling, Andreas S. Tolias, Anthony Ramos, Barak Nehoran, Ben Silverman, Brendan Celii, Cameron L. Smith, Casey M. Schneider-Mizell, Chris Jordan, Chris Xu, Christos Papadopoulos, Clare Gamlin, Dan Kapner, Daniel J. Bumbarger, Derrick Brittain, Dimitri Yatsenko, Edgar Y. Walker, Elanine Miranda, Emmanouil Froudarakis, Eric Mitchell, Eric Cobos, Fabian H. Sinz, Fei Ye, Forrest Collman, Gayathri Mahalingam, Grace Williams, H. Sebastian Seung, <u>J Alex Bae</u>, Jacob Reimer, James Hebditch, Jay Gager, Jingpeng Wu, Joann Buchanan, Kai Kuehner, Kai Li, <u>Kisuk Lee</u>, Kyle Willie, Leila Elabbady, Mahaly Baptiste, Manuel Castro, Marc Takeno, Merlin Moore, Nicholas L. Turner, <u>Nico Kemnitz</u>, Nuno Macarico da Costa, Oluwaseun Ogedengbe, Paul G. Fahey, R. Clay Reid, <u>Ran Lu</u>, Runzhe Yang, Russel Torres, Ryan Willie, Sam Kinn, Sarah Williams, Sarah McReynolds, Saumil Patel, Selden Koolman, <u>Sergiy Popovych</u>, Shang Mu, Shanka Subhra Mondal, Shelby Suckow, Stelios Papadopoulos, Sven Dorkenwald, Szi-Chieh Yu, Taliah Muhammad, <u>Thomas Macrina</u>, Tianyu Wang, Tim Fliss, Wenjing Yin, William Silversmith, William Wong, Xaq Pitkow, Zhen Jia, Zheng H. Tan. bioRxiv. July 2021.
+  </p>
+
+  <p class="paper">
+    <a href="https://doi.org/10.1109/TMI.2021.3097826">Learning and Segmenting Dense Voxel Embeddings for 3D Neuron Reconstruction</a>.
+    <u>Kisuk Lee</u>, <u>Ran Lu</u>, Kyle Luther, H. Sebastian Seung. IEEE Transactions on Medical Imaging. July 2021.
+  </p>
+
+  <p class="paper">
+    <a href="https://doi.org/10.1038/s41592-021-01330-0">FlyWire: online community for whole-brain connectomics</a>.
+    Sven Dorkenwald, Claire E. McKellar, <u>Thomas Macrina</u>, <u>Nico Kemnitz</u>, <u>Kisuk Lee</u>, <u>Ran Lu</u>, Jingpeng Wu, <u>Sergiy Popovych</u>, Eric Mitchell, Barak Nehoran, Zhen Jia, <u>J Alex Bae</u>, Shang Mu, <u>Dodam Ih</u>, Manuel Castro, Oluwaseun Ogedengbe, <u>Akhilesh Halageri</u>, Kai Kuehner, Amy R. Sterling, Zoe Ashwood, Jonathan Zung, Derrick Brittain, Forrest Collman, Casey Schneider-Mizell, Chris S. Jordan, William Silversmith, Christa Baker, David Deutsch, Lucas Encarnacion-Rivera, Sandeep Kumar, Austin Burke, Doug Bland, Jay Gager, James Hebditch, Selden Koolman, Merlin Moore, Sarah Morejohn, Ben Silverman, Kyle Willie, Ryan Willie, Szi-Chieh Yu, Mala Murthy, H. Sebastian Seung. Nature Methods. December 2021.
+  </p>
+
+  <p class="paper">
+    <a href="https://doi.org/10.1109/ISBI45749.2020.9098489">Synaptic Partner Assignment Using Attentional Voxel Association Networks</a>.
+    Nicholas L. Turner, <u>Kisuk Lee</u>, <u>Ran Lu</u>, Jingpeng Wu, <u>Dodam Ih</u>, H. Sebastian Seung. IEEE 17th International Symposium on Biomedical Imaging (ISBI). April 2020.
+  </p>
+
+  <p class="paper">
+    <a href="https://doi.org/10.1016/j.conb.2019.04.001">Convolutional nets for reconstructing neural circuits from brain images acquired by serial section electron microscopy</a>.
+    <u>Kisuk Lee</u>, Nicholas Turner, <u>Thomas Macrina</u>, Jingpeng Wu, <u>Ran Lu</u>, H. Sebastian Seung. Current Opinion in Neurobiology. April 2019.
+  </p>
+
+  <p class="paper">
+    <a href="http://papers.nips.cc/paper/7258-an-error-detection-and-correction-framework-for-connectomics.pdf">An Error Detection and Correction Framework for Connectomics</a>.
+    Jonathan Zung, Ignacio Tartavull, <u>Kisuk Lee</u>, H. Sebastian Seung. Advances in Neural Information Processing Systems. December 2017.
+  </p>
+
+  <p class="paper">
+    <a href="http://arxiv.org/abs/1706.00120">Superhuman Accuracy on the SNEMI3D Connectomics Challenge</a>.
+    <u>Kisuk Lee</u>, Jonathan Zung, Peter Li, Viren Jain, H. Sebastian Seung. arXiv. May 2017.
+  </p>
+
+  </section>
+
+
+  <hr>
+
+  <section id="projects" class="content-section">
+    <h2>Public projects</h2>
+    <p>
+    	<ul>
+		<li><a href="https://banc.community/">BANC</a>: Join the <a href="https://flywire.ai/banc_access">FlyWire</a> community to help proofread the central nervous system of a female <i>Drosophila</i>.
+		</li>
+		<li><a href="https://github.com/htem/FANC_auto_recon/wiki">FANC</a>: Help proofread the ventral nerve cord of a female <i>Drosophila</i>.
+		</li>
+	</ul>
+    </p>
+  </section>
+
+  <hr>
+
+  <section id="jobs" class="content-section">
+    <h2>Work at Zetta</h2>
+    <p>
+    We are hiring full-time machine learning engineers. <a href="#contact">Reach out</a> to us with code samples.
+    </p>
+  </section>
+
+  <hr>
+
+  <section id="contact" class="content-section">
+    <h2>Contact us</h2>
+    <p>
+    	<ul>
+		<li>contact@zetta.ai
+    		</li>
+    		<li><a href="https://x.com/@zettaconnectome">Twitter</a>
+		</li>
+	</ul>
+    </p>
+  </section>
+
+  <hr>
+
+  <footer class="footer">
+    <p>&copy; Zetta AI 2024</p>
+  </footer>
+
+</body>
+</html>
+
